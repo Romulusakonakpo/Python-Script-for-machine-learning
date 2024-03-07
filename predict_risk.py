@@ -15,11 +15,11 @@ import pandas
 import csv
 ## 1 - Extraction and save of data from MongoDB
 ## connection's details
-host = "208.87.130.253"
-port = 27017
+host = "2___3"
+port = 2__7
 database_name = "mag1_project"
 username = "mag1_student"
-password = "Gogo1gogo2"
+password = "G___2"
 authentication_database = "mag1_project"
 collection = "project"
 ## Connection to database MongoDB
@@ -40,11 +40,11 @@ df1=pandas.DataFrame(mongo_data)
 ## 2 - Extract and save of data from MySql database
 
 ## Connection detail 
-host = "144.24.194.65"
-port = 3999
+host = "1___5"
+port = 3__9
 database_name = "mag1_project"
 username = "mag1_student"
-password = "Gogo1gogo2"
+password = "G__2"
 table = "project"
 db_url = f'mysql+pymysql://{username}:{password}@{host}:{port}/{database_name}'
 
@@ -59,7 +59,7 @@ engine.dispose()
 
 ## 3 - Extract and save data from HTML base
 
-url = "https://h.chifu.eu/data.html"
+url = "https://___.html"
 response = requests.get(url)
 html_content = response.content
 soup = BeautifulSoup(html_content, "html.parser")
